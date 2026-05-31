@@ -1,0 +1,43 @@
+name: movie-booking-backend
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: postgres
+    ports:
+      - "5433:5432" #first port is for host/local machine, second port is for container
+    volumes:
+      - postgres_data:/var/lib/postgresql/data #persist data even if container is stopped or removed
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "8081:80" #first port is for host/local machine, second port is for container
+    depends_on:
+      - postgres #represents the service name postgres above
+
+  redis:
+    image: redis/redis-stack:6.2.6-v19
+    container_name: redis
+    restart: always
+    environment:
+      - REDIS_ARGS=--requirepass mySecretPassword --appendonly yes
+    ports:
+      - "6379:6379" #first port is for host/local machine, second port is for container for redis
+      - "8001:8001" #first port is for host/local machine, second port is for container for redis insight
+    volumes:
+      - redis_data:/data #redis data persists even if container is stopped or removed
+
+#global fields :If you run docker compose down and destroy your Postgres container data remains safely stored in this global volume. The next time you run docker compose up, your old data is instantly reattached.
+volumes:
+  postgres_data:
+  redis_data:

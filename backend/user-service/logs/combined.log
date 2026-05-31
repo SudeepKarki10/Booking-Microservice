@@ -1,0 +1,733 @@
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T09:38:58.821Z"}
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T09:39:00.248Z"}
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T09:40:44.534Z"}
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T09:43:17.922Z"}
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T09:51:44.815Z"}
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T09:53:27.320Z"}
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T09:54:31.104Z"}
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T09:56:30.616Z"}
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T09:57:01.759Z"}
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T09:57:04.447Z"}
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T09:58:09.547Z"}
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T09:58:44.625Z"}
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T09:58:48.787Z"}
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T09:59:14.831Z"}
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T09:59:17.739Z"}
+{"level":"error","message":"Failed to start Server Cannot read properties of undefined (reading 'PORT')","service":"user-service","stack":"TypeError: Cannot read properties of undefined (reading 'PORT')\n    at startServer (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\server.js:35:42)\n    at Object.<anonymous> (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\server.js:43:1)\n    at Module._compile (node:internal/modules/cjs/loader:1565:14)\n    at Object..js (node:internal/modules/cjs/loader:1708:10)\n    at Module.load (node:internal/modules/cjs/loader:1318:32)\n    at Function._load (node:internal/modules/cjs/loader:1128:12)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)\n    at node:internal/main/run_main_module:36:49","timestamp":"2026-05-22T09:59:31.481Z"}
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T10:02:33.764Z"}
+{"level":"info","message":"Server is running on port undefined","service":"user-service","timestamp":"2026-05-22T10:03:13.615Z"}
+{"level":"info","message":"Server is running on port undefined","timestamp":"2026-05-22T10:03:53.355Z"}
+{"level":"info","message":"Server is running on port undefined","timestamp":"2026-05-22T10:04:25.238Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-05-22T10:08:00.611Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-05-22T10:22:32.494Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-05-22T10:23:15.322Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-05-22T10:24:32.768Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-05-22T10:25:21.183Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-05-22T10:32:09.456Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-05-22T10:36:09.995Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-05-22T10:38:11.448Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-05-22T10:38:15.931Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2026-05-22T10:38:19.466Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T02:36:25.590Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T02:36:30.245Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T02:39:19.089Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T03:53:02.090Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T04:05:01.303Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T04:05:43.023Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T04:05:51.171Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T04:06:13.739Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T08:55:39.720Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:14:20.274Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:15:22.442Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:15:23.844Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:15:52.815Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:16:18.346Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:17:14.053Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:17:26.980Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:17:40.262Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:18:10.869Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:18:31.298Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:19:31.221Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:19:35.222Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:19:40.597Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:19:43.373Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:24:41.615Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:25:06.425Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:26:26.553Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:27:20.618Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:29:50.436Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:30:08.314Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:30:15.657Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:30:47.735Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:31:12.779Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:31:25.747Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:31:32.146Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:32:14.107Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:33:08.575Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:33:38.643Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:33:40.012Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:33:59.623Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:34:13.855Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:34:52.473Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:35:46.024Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:35:56.290Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:36:12.011Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:37:47.543Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:38:02.078Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:39:52.142Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:40:50.810Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:41:01.024Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:41:38.671Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:44:40.432Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:47:57.429Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:48:58.609Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:49:12.982Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:49:19.746Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:49:25.121Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:49:55.292Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:53:30.147Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:53:35.734Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:54:05.095Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:54:07.598Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:54:08.749Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:54:45.804Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:55:53.535Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:55:54.545Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:56:01.971Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:56:52.919Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:57:31.537Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:58:24.225Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:58:33.518Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T09:58:46.874Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T10:19:42.684Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T10:20:10.645Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T10:20:13.457Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T10:22:46.930Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T10:25:54.453Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T10:27:19.425Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T10:28:07.453Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T10:28:52.393Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T10:28:59.900Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T10:29:26.210Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T10:30:29.460Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T10:32:46.463Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T10:36:25.768Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T10:36:27.008Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T10:37:12.704Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T10:37:18.414Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T11:55:59.466Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T11:56:00.439Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T12:02:07.996Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T12:02:13.481Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T12:11:00.191Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T12:11:00.207Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T12:11:00.234Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/send-otp | StatusCode: 500 | Duration: 46ms | 500 Internal Server Error","timestamp":"2026-05-23T12:40:31.252Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T12:41:52.175Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T12:41:52.206Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T12:41:52.233Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/send-otp | StatusCode: 500 | Duration: 7ms | 500 Internal Server Error","timestamp":"2026-05-23T12:41:59.036Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T12:42:50.663Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T12:42:50.672Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T12:42:50.681Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T12:43:11.968Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T12:43:11.981Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T12:43:11.991Z"}
+{"level":"warn","message":"Method:POST | URL: /api/v1/send-otp | StatusCode: 404 | Duration: 4ms | 400 Client Error","timestamp":"2026-05-23T12:43:18.036Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T12:45:52.416Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T12:45:52.429Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T12:45:52.443Z"}
+{"code":401,"level":"error","message":"Unauthorized","response":{"body":{"errors":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}]},"headers":{"access-control-allow-headers":"Authorization, Content-Type, On-behalf-of, x-sg-elas-acl","access-control-allow-methods":"POST","access-control-allow-origin":"https://sendgrid.api-docs.io","access-control-max-age":"600","cache-control":"no-cache","connection":"keep-alive","content-length":"116","content-security-policy":"frame-ancestors 'none'","content-type":"application/json","date":"Sat, 23 May 2026 12:46:06 GMT","referrer-policy":"strict-origin-when-cross-origin","server":"nginx","strict-transport-security":"max-age=31536000; includeSubDomains","x-content-type-options":"no-sniff","x-no-cors-reason":"https://sendgrid.com/docs/Classroom/Basics/API/cors.html"}},"stack":"Error: Unauthorized\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@sendgrid\\client\\src\\classes\\client.js:167:29\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2026-05-23T12:46:05.839Z"}
+{"level":"error","message":{"errors":[{"field":null,"help":null,"message":"The provided authorization grant is invalid, expired, or revoked"}]},"timestamp":"2026-05-23T12:46:05.842Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/send-otp | StatusCode: 500 | Duration: 3270ms | 500 Internal Server Error","timestamp":"2026-05-23T12:46:05.849Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T12:46:46.608Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T12:46:46.628Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T12:46:46.641Z"}
+{"level":"info","message":"OTP Email sent to sudeepkarki74@gmail.com successfully. MessageId: <463ead72-4aef-d56f-0158-bcd4c637aa6f@gmail.com>","timestamp":"2026-05-23T12:46:58.063Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T12:47:26.582Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T12:47:26.610Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T12:47:26.627Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:33:53.390Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:33:53.422Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:33:53.443Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:33:56.458Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:33:56.482Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:33:56.493Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:37:04.950Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:37:04.990Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:37:05.017Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:41:09.313Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:41:09.330Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:41:09.350Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:43:45.525Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:43:45.549Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:43:45.565Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:43:52.496Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:43:52.517Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:43:52.535Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:43:54.554Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:43:54.574Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:43:54.588Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:44:38.679Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:44:38.695Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:44:38.707Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:44:42.260Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:44:42.277Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:44:42.290Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:45:05.832Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:45:05.860Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:45:05.881Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:45:23.607Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:45:23.630Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:45:23.646Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:45:39.531Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:45:39.549Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:45:39.562Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:45:41.982Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:45:41.998Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:45:42.008Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:45:50.240Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:45:50.258Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:45:50.272Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:46:14.628Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:46:14.648Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:46:14.661Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:46:16.268Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:46:16.287Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:46:16.302Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:46:27.351Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:46:27.374Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:46:27.396Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:46:31.190Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:46:31.221Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:46:31.243Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:46:36.128Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:46:36.158Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:46:36.187Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:47:11.513Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:47:11.538Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:47:11.554Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:47:17.803Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:47:17.830Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:47:17.852Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:47:27.042Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:47:27.061Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:47:27.080Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T16:47:49.366Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T16:47:49.389Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T16:47:49.406Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:05:28.258Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:05:28.296Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:05:28.329Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:06:21.016Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:06:21.045Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:06:21.063Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:07:42.364Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:07:42.387Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:07:42.403Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:08:10.712Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:08:10.738Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:08:10.753Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:09:32.535Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:09:32.552Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:09:32.567Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:10:03.987Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:10:04.023Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:10:04.053Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:10:05.961Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:10:05.998Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:10:06.026Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:10:24.549Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:10:24.585Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:10:24.607Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:10:58.280Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:10:58.303Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:10:58.310Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:15:04.117Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:15:04.134Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:15:04.157Z"}
+{"level":"info","message":"Generated OTP for email sudeepkarki74@gmail.com with session ID 884d4fbc-1d7f-4a78-ace8-3946dd936b4a","timestamp":"2026-05-23T17:15:10.831Z"}
+{"level":"info","message":"OTP Email sent to sudeepkarki74@gmail.com successfully. MessageId: <825e9a45-44a0-ae66-1e3d-36c3bb434d88@gmail.com>","timestamp":"2026-05-23T17:15:15.610Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/verify-otp | StatusCode: 500 | Duration: 38ms | 500 Internal Server Error","timestamp":"2026-05-23T17:17:10.678Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/verify-otp | StatusCode: 500 | Duration: 7ms | 500 Internal Server Error","timestamp":"2026-05-23T17:18:07.079Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:19:31.271Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:19:31.296Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:19:31.319Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:19:37.523Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:19:37.540Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:19:37.571Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:19:45.507Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:19:45.534Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:19:45.552Z"}
+{"level":"info","message":"OTP verified successfully for email sudeepkarki74@gmail.com","timestamp":"2026-05-23T17:19:54.743Z"}
+{"level":"error","message":"ReferenceError: meta is not defined\n    at Object.verifyOtpservice (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:36:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:37:18","timestamp":"2026-05-23T17:19:54.745Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/verify-otp | StatusCode: 500 | Duration: 27ms | 500 Internal Server Error","timestamp":"2026-05-23T17:19:54.750Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:21:39.199Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:21:39.222Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:21:39.240Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:21:43.256Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:21:43.275Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:21:43.291Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:21:46.153Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:21:46.186Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:21:46.212Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:21:49.429Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:21:49.448Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:21:49.460Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:21:52.021Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:21:52.062Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:21:52.084Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:21:55.009Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:21:55.058Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:21:55.116Z"}
+{"level":"error","message":"TypeError: BadRequestError is not a constructor\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:35:15\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\utils\\asyncHandler.js:2:28\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:291:5)","timestamp":"2026-05-23T17:21:56.259Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/verify-otp | StatusCode: 500 | Duration: 15ms | 500 Internal Server Error","timestamp":"2026-05-23T17:21:56.270Z"}
+{"level":"error","message":"TypeError: BadRequestError is not a constructor\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:35:15\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\utils\\asyncHandler.js:2:28\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:291:5)","timestamp":"2026-05-23T17:21:58.104Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/verify-otp | StatusCode: 500 | Duration: 4ms | 500 Internal Server Error","timestamp":"2026-05-23T17:21:58.106Z"}
+{"level":"error","message":"TypeError: BadRequestError is not a constructor\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:35:15\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\utils\\asyncHandler.js:2:28\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:291:5)","timestamp":"2026-05-23T17:22:01.479Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/verify-otp | StatusCode: 500 | Duration: 4ms | 500 Internal Server Error","timestamp":"2026-05-23T17:22:01.482Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:23:03.600Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:23:03.617Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:23:03.629Z"}
+{"level":"error","message":"TypeError: BadRequestError is not a constructor\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:35:15\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\utils\\asyncHandler.js:2:28\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:291:5)","timestamp":"2026-05-23T17:23:07.680Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/verify-otp | StatusCode: 500 | Duration: 9ms | 500 Internal Server Error","timestamp":"2026-05-23T17:23:07.686Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:25:27.477Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:25:27.492Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:25:27.507Z"}
+{"level":"error","message":"Error: OTP and session ID are required\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:35:15\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\utils\\asyncHandler.js:2:28\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:291:5)","timestamp":"2026-05-23T17:25:32.819Z"}
+{"level":"warn","message":"Method:POST | URL: /api/v1/auth/verify-otp | StatusCode: 400 | Duration: 16ms | 400 Client Error","timestamp":"2026-05-23T17:25:32.832Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:25:38.645Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:25:38.671Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:25:38.689Z"}
+{"level":"info","message":"Generated OTP for email sudeepkarki74@gmail.com with session ID 280de6a0-2795-461f-a61a-33a57ebbe31f","timestamp":"2026-05-23T17:25:55.676Z"}
+{"level":"info","message":"OTP Email sent to sudeepkarki74@gmail.com successfully. MessageId: <d1fa9329-1cee-21b6-d814-042817fbe3e1@gmail.com>","timestamp":"2026-05-23T17:26:00.799Z"}
+{"level":"info","message":"OTP verified successfully for email sudeepkarki74@gmail.com","timestamp":"2026-05-23T17:26:47.643Z"}
+{"level":"error","message":"PrismaClientValidationError: \nInvalid `prisma.user.create()` invocation in\nC:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:34:36\n\n  31 }\n  32 \n  33 //if otp is valid then create the user in the database using the meta data and delete the OTP session from      redis\n→ 34 const user = await prisma.user.create({\n       data: {\n         firstName: \"sudip\",\n         lastName: \"karki\",\n         email: \"sudeepkarki74@gmail.com\",\n         password: \"$2b$12$wgLgEb.9bblqxnxCtKXGj.ZKy0MgFdJ9MJBNgfBS89De5W/SO8Csq\",\n         emailVerified: true,\n     +   name: String\n       }\n     })\n\nArgument `name` is missing.\n    at ar (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:10:1374)\n    at zr.handleRequestError (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:65:7929)\n    at zr.handleAndLogRequestError (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:65:7581)\n    at zr.request (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:65:7288)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async a (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:75:6862)\n    at async Object.verifyOtpservice (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:34:18)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:37:18","timestamp":"2026-05-23T17:26:47.676Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/verify-otp | StatusCode: 500 | Duration: 59ms | 500 Internal Server Error","timestamp":"2026-05-23T17:26:47.679Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:29:26.517Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:29:26.546Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:29:26.565Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:29:31.308Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:29:31.344Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:29:31.364Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:30:02.551Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:30:02.578Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:30:02.591Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:30:13.868Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:30:13.896Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:30:13.916Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:30:23.376Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:30:23.395Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:30:23.409Z"}
+{"level":"error","message":"Error: OTP session not found or expired\n    at Object.verifyOtpservice (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:30:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:37:18","timestamp":"2026-05-23T17:30:36.217Z"}
+{"level":"warn","message":"Method:POST | URL: /api/v1/auth/verify-otp | StatusCode: 400 | Duration: 22ms | 400 Client Error","timestamp":"2026-05-23T17:30:36.230Z"}
+{"level":"info","message":"Generated OTP for email sudeepkarki74@gmail.com with session ID af3bc61c-a049-44bf-aa3a-8a3fd2d7ab0f","timestamp":"2026-05-23T17:30:46.596Z"}
+{"level":"info","message":"OTP Email sent to sudeepkarki74@gmail.com successfully. MessageId: <413be8fe-4c2c-89d3-584f-062d11669654@gmail.com>","timestamp":"2026-05-23T17:30:51.156Z"}
+{"level":"info","message":"OTP verified successfully for email sudeepkarki74@gmail.com","timestamp":"2026-05-23T17:31:06.123Z"}
+{"level":"error","message":"PrismaClientValidationError: \nInvalid `prisma.user.create()` invocation in\nC:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:34:36\n\n  31 }\n  32 \n  33 //if otp is valid then create the user in the database using the meta data and delete the OTP session from      redis\n→ 34 const user = await prisma.user.create({\n       data: {\n         firstName: \"sudip\",\n         lastName: \"karki\",\n         email: \"sudeepkarki74@gmail.com\",\n         password: \"$2b$12$nhaEmIB9nxoIIWpDXql02u3B8V0JEdHwl4vNHkE8MGioraw/sDqs.\",\n         emailVerified: true,\n     +   name: String\n       }\n     })\n\nArgument `name` is missing.\n    at ar (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:10:1374)\n    at zr.handleRequestError (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:65:7929)\n    at zr.handleAndLogRequestError (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:65:7581)\n    at zr.request (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:65:7288)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async a (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:75:6862)\n    at async Object.verifyOtpservice (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:34:18)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:37:18","timestamp":"2026-05-23T17:31:06.146Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/verify-otp | StatusCode: 500 | Duration: 40ms | 500 Internal Server Error","timestamp":"2026-05-23T17:31:06.149Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-23T17:31:55.810Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-23T17:31:55.830Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-23T17:31:55.856Z"}
+{"level":"error","message":"Error: OTP session not found or expired\n    at Object.verifyOtpservice (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:30:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:37:18","timestamp":"2026-05-23T17:32:00.155Z"}
+{"level":"warn","message":"Method:POST | URL: /api/v1/auth/verify-otp | StatusCode: 400 | Duration: 10ms | 400 Client Error","timestamp":"2026-05-23T17:32:00.160Z"}
+{"level":"info","message":"Generated OTP for email sudeepkarki74@gmail.com with session ID 0ac5d9b0-a369-4fca-81e6-5c89d85b8870","timestamp":"2026-05-23T17:32:33.118Z"}
+{"level":"info","message":"OTP Email sent to sudeepkarki74@gmail.com successfully. MessageId: <815ba92e-c19f-db3e-f170-ebad39c78b72@gmail.com>","timestamp":"2026-05-23T17:32:37.819Z"}
+{"level":"info","message":"OTP verified successfully for email sudeepkarki74@gmail.com","timestamp":"2026-05-23T17:32:53.322Z"}
+{"level":"info","message":"OTP Email sent to sudeepkarki74@gmail.com successfully. MessageId: <d09826dd-6bcb-f33f-2bbd-d23a14a1e182@gmail.com>","timestamp":"2026-05-23T17:32:57.500Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T09:44:21.672Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:21.681Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 50ms...","timestamp":"2026-05-24T09:44:21.682Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 50ms...","timestamp":"2026-05-24T09:44:21.683Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:21.744Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 100ms...","timestamp":"2026-05-24T09:44:21.746Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 100ms...","timestamp":"2026-05-24T09:44:21.747Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:21.853Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 150ms...","timestamp":"2026-05-24T09:44:21.855Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 150ms...","timestamp":"2026-05-24T09:44:21.856Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:22.024Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 200ms...","timestamp":"2026-05-24T09:44:22.025Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 200ms...","timestamp":"2026-05-24T09:44:22.027Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:22.242Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 250ms...","timestamp":"2026-05-24T09:44:22.243Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 250ms...","timestamp":"2026-05-24T09:44:22.243Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:22.506Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 300ms...","timestamp":"2026-05-24T09:44:22.507Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 300ms...","timestamp":"2026-05-24T09:44:22.507Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:22.818Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 350ms...","timestamp":"2026-05-24T09:44:22.819Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 350ms...","timestamp":"2026-05-24T09:44:22.819Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:23.179Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 400ms...","timestamp":"2026-05-24T09:44:23.180Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 400ms...","timestamp":"2026-05-24T09:44:23.180Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:23.586Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 450ms...","timestamp":"2026-05-24T09:44:23.587Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 450ms...","timestamp":"2026-05-24T09:44:23.588Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:24.053Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 500ms...","timestamp":"2026-05-24T09:44:24.054Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 500ms...","timestamp":"2026-05-24T09:44:24.055Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:24.569Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 550ms...","timestamp":"2026-05-24T09:44:24.570Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 550ms...","timestamp":"2026-05-24T09:44:24.571Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:25.135Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 600ms...","timestamp":"2026-05-24T09:44:25.136Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 600ms...","timestamp":"2026-05-24T09:44:25.136Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:25.753Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 650ms...","timestamp":"2026-05-24T09:44:25.754Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 650ms...","timestamp":"2026-05-24T09:44:25.754Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:26.409Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 700ms...","timestamp":"2026-05-24T09:44:26.410Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 700ms...","timestamp":"2026-05-24T09:44:26.410Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:27.126Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 750ms...","timestamp":"2026-05-24T09:44:27.127Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 750ms...","timestamp":"2026-05-24T09:44:27.128Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:27.891Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 800ms...","timestamp":"2026-05-24T09:44:27.892Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 800ms...","timestamp":"2026-05-24T09:44:27.893Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:28.701Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 850ms...","timestamp":"2026-05-24T09:44:28.702Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 850ms...","timestamp":"2026-05-24T09:44:28.702Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:29.559Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 900ms...","timestamp":"2026-05-24T09:44:29.559Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 900ms...","timestamp":"2026-05-24T09:44:29.560Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:30.466Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 950ms...","timestamp":"2026-05-24T09:44:30.468Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 950ms...","timestamp":"2026-05-24T09:44:30.469Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:31.431Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1000ms...","timestamp":"2026-05-24T09:44:31.432Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1000ms...","timestamp":"2026-05-24T09:44:31.433Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:32.437Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1050ms...","timestamp":"2026-05-24T09:44:32.439Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1050ms...","timestamp":"2026-05-24T09:44:32.439Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:33.493Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1100ms...","timestamp":"2026-05-24T09:44:33.496Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1100ms...","timestamp":"2026-05-24T09:44:33.497Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:34.602Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1150ms...","timestamp":"2026-05-24T09:44:34.602Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1150ms...","timestamp":"2026-05-24T09:44:34.603Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:35.764Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1200ms...","timestamp":"2026-05-24T09:44:35.774Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1200ms...","timestamp":"2026-05-24T09:44:35.775Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:36.982Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1250ms...","timestamp":"2026-05-24T09:44:36.985Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1250ms...","timestamp":"2026-05-24T09:44:36.991Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:38.264Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1300ms...","timestamp":"2026-05-24T09:44:38.272Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1300ms...","timestamp":"2026-05-24T09:44:38.283Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:39.588Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1350ms...","timestamp":"2026-05-24T09:44:39.589Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1350ms...","timestamp":"2026-05-24T09:44:39.589Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:40.947Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1400ms...","timestamp":"2026-05-24T09:44:40.948Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1400ms...","timestamp":"2026-05-24T09:44:40.948Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:42.354Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1450ms...","timestamp":"2026-05-24T09:44:42.355Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1450ms...","timestamp":"2026-05-24T09:44:42.356Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:43.814Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1500ms...","timestamp":"2026-05-24T09:44:43.814Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1500ms...","timestamp":"2026-05-24T09:44:43.815Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:45.331Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1550ms...","timestamp":"2026-05-24T09:44:45.331Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1550ms...","timestamp":"2026-05-24T09:44:45.332Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:46.885Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1600ms...","timestamp":"2026-05-24T09:44:46.885Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1600ms...","timestamp":"2026-05-24T09:44:46.886Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:48.500Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1650ms...","timestamp":"2026-05-24T09:44:48.501Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1650ms...","timestamp":"2026-05-24T09:44:48.501Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:50.153Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1700ms...","timestamp":"2026-05-24T09:44:50.154Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1700ms...","timestamp":"2026-05-24T09:44:50.154Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:51.868Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1750ms...","timestamp":"2026-05-24T09:44:51.868Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1750ms...","timestamp":"2026-05-24T09:44:51.869Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:53.624Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1800ms...","timestamp":"2026-05-24T09:44:53.624Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1800ms...","timestamp":"2026-05-24T09:44:53.625Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:55.437Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1850ms...","timestamp":"2026-05-24T09:44:55.437Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1850ms...","timestamp":"2026-05-24T09:44:55.438Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:57.297Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1900ms...","timestamp":"2026-05-24T09:44:57.298Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1900ms...","timestamp":"2026-05-24T09:44:57.298Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:44:59.202Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1950ms...","timestamp":"2026-05-24T09:44:59.203Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1950ms...","timestamp":"2026-05-24T09:44:59.203Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:45:01.167Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-05-24T09:45:01.168Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-05-24T09:45:01.168Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:45:03.182Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-05-24T09:45:03.183Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-05-24T09:45:03.183Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-24T09:45:05.192Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-05-24T09:45:05.194Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-05-24T09:45:05.194Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T09:45:07.204Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T09:45:07.223Z"}
+{"level":"error","message":"Error: OTP and session ID are required\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:38:15\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\utils\\asyncHandler.js:2:28\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:291:5)","timestamp":"2026-05-24T09:45:42.733Z"}
+{"level":"warn","message":"Method:POST | URL: /api/v1/auth/verify-otp | StatusCode: 400 | Duration: 302ms | 400 Client Error","timestamp":"2026-05-24T09:45:43.016Z"}
+{"level":"error","message":"TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:50:12\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\utils\\asyncHandler.js:2:28\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:291:5)","timestamp":"2026-05-24T09:47:03.384Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/login | StatusCode: 500 | Duration: 9ms | 500 Internal Server Error","timestamp":"2026-05-24T09:47:03.389Z"}
+{"level":"error","message":"TypeError: Cannot destructure property 'email' of 'req.body' as it is undefined.\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:50:12\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\utils\\asyncHandler.js:2:28\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:291:5)","timestamp":"2026-05-24T09:47:23.032Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/login | StatusCode: 500 | Duration: 4ms | 500 Internal Server Error","timestamp":"2026-05-24T09:47:23.034Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T09:50:47.241Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T09:50:47.252Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T09:50:47.273Z"}
+{"level":"error","message":"TypeError: getDeviceFingerprint is not a function\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:57:22\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\utils\\asyncHandler.js:2:28\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\router\\index.js:291:5)","timestamp":"2026-05-24T09:50:52.052Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/login | StatusCode: 500 | Duration: 25ms | 500 Internal Server Error","timestamp":"2026-05-24T09:50:52.069Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T09:51:56.373Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T09:51:56.390Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T09:51:56.401Z"}
+{"level":"error","message":"ReferenceError: jwt is not defined\n    at Object.login (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:61:19)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:59:54","timestamp":"2026-05-24T09:52:03.918Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/login | StatusCode: 500 | Duration: 1694ms | 500 Internal Server Error","timestamp":"2026-05-24T09:52:03.928Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T09:52:23.988Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T09:52:23.999Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T09:52:24.008Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T09:54:18.980Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T09:54:18.991Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T09:54:18.999Z"}
+{"level":"error","message":"ReferenceError: redis is not defined\n    at Object.login (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:63:5)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:59:54","timestamp":"2026-05-24T09:54:23.260Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/login | StatusCode: 500 | Duration: 1589ms | 500 Internal Server Error","timestamp":"2026-05-24T09:54:23.274Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T09:56:26.725Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T09:56:26.738Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T09:56:26.747Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T09:56:38.663Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T09:56:38.678Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T09:56:38.691Z"}
+{"level":"error","message":"ReferenceError: config is not defined\n    at Object.login (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:65:69)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:59:54","timestamp":"2026-05-24T09:56:47.553Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/login | StatusCode: 500 | Duration: 1271ms | 500 Internal Server Error","timestamp":"2026-05-24T09:56:47.563Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T09:57:16.223Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T09:57:16.253Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T09:57:16.272Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T09:57:19.014Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T09:57:19.025Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T09:57:19.035Z"}
+{"level":"error","message":"ReferenceError: Cannot access 'safeUser' before initialization\n    at Object.login (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:68:55)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:59:54","timestamp":"2026-05-24T09:57:22.938Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/login | StatusCode: 500 | Duration: 1489ms | 500 Internal Server Error","timestamp":"2026-05-24T09:57:22.953Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T09:58:43.843Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T09:58:43.854Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T09:58:43.864Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:00:41.186Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:00:41.200Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:00:41.207Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:02:52.649Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:02:52.674Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:02:52.695Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:03:26.870Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:03:26.942Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:03:26.950Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:06:08.862Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:06:08.875Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:06:08.884Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:06:19.396Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:06:19.410Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:06:19.417Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:07:16.281Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:07:16.299Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:07:16.313Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:07:34.153Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:07:34.181Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:07:34.200Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:09:09.002Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:09:09.016Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:09:09.028Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:09:32.191Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:09:32.206Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:09:32.215Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:09:52.526Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:09:52.542Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:09:52.552Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:10:10.043Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:10:10.069Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:10:10.086Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:11:43.941Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:11:43.954Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:11:43.962Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:11:56.996Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:11:57.009Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:11:57.017Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:12:04.567Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:12:04.577Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:12:04.585Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:13:56.136Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:13:56.154Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:13:56.171Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:14:49.383Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:14:49.393Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:14:49.404Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:15:55.689Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:15:55.705Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:15:55.715Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:16:00.287Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:16:00.300Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:16:00.307Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:16:16.076Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:16:16.088Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:16:16.098Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:17:04.408Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:17:04.435Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:17:04.453Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:17:24.572Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:17:24.598Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:17:24.614Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:18:08.546Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:18:08.569Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:18:08.581Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:19:20.672Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:19:20.697Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:19:20.717Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:19:32.099Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:19:32.114Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:19:32.121Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:20:28.099Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:20:28.124Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:20:28.157Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:21:04.192Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:21:04.210Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:21:04.218Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:26:30.758Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:26:30.773Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:26:30.780Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:29:02.990Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:29:03.001Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:29:03.011Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-24T10:56:18.891Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-24T10:56:18.906Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-24T10:56:18.914Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T09:44:20.627Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T09:44:20.643Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T09:44:20.696Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T09:46:45.758Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T09:46:45.775Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T09:46:45.785Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T09:46:54.485Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T09:46:54.498Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T09:46:54.510Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T09:47:26.413Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T09:47:26.426Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T09:47:26.432Z"}
+{"level":"warn","message":"Method:POST | URL: /api/v1/auth/google-auth | StatusCode: 404 | Duration: 7ms | 400 Client Error","timestamp":"2026-05-28T09:48:47.881Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T09:53:53.064Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T09:53:53.091Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T09:53:53.104Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T09:56:36.086Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T09:56:36.101Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T09:56:36.111Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T10:01:38.026Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T10:01:38.039Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T10:01:38.049Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T10:01:43.456Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T10:01:43.480Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T10:01:43.499Z"}
+{"level":"error","message":"ReferenceError: logger is not defined\n    at Object.verifyGoogleToken (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:222:9)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:115:55","timestamp":"2026-05-28T10:02:50.567Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/google-auth | StatusCode: 500 | Duration: 968ms | 500 Internal Server Error","timestamp":"2026-05-28T10:02:50.574Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T10:07:09.463Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T10:07:09.488Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T10:07:09.506Z"}
+{"level":"error","message":"Error verifying Google token: Cannot read properties of undefined (reading 'findUnique')","timestamp":"2026-05-28T10:09:13.700Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'findUnique')\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:161:52\n    at Proxy._transactionWithCallback (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:75:4806)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Object.verifyGoogleToken (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:160:22)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:115:55","timestamp":"2026-05-28T10:09:13.705Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/google-auth | StatusCode: 500 | Duration: 1039ms | 500 Internal Server Error","timestamp":"2026-05-28T10:09:13.708Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T10:11:35.580Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T10:11:35.597Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T10:11:35.622Z"}
+{"level":"error","message":"Error verifying Google token: Cannot read properties of undefined (reading 'findUnique')","timestamp":"2026-05-28T10:12:24.995Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'findUnique')\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:161:52\n    at Proxy._transactionWithCallback (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:75:4806)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Object.verifyGoogleToken (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:160:22)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:115:55","timestamp":"2026-05-28T10:12:24.999Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/google-auth | StatusCode: 500 | Duration: 1026ms | 500 Internal Server Error","timestamp":"2026-05-28T10:12:25.005Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T10:16:46.380Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T10:16:46.395Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T10:16:46.413Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T10:17:09.447Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T10:17:09.463Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T10:17:09.479Z"}
+{"level":"error","message":"Error verifying Google token: Cannot read properties of undefined (reading 'findUnique')","timestamp":"2026-05-28T10:17:13.199Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'findUnique')\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:161:52\n    at Proxy._transactionWithCallback (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:75:4806)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Object.verifyGoogleToken (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:160:22)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:115:55","timestamp":"2026-05-28T10:17:13.201Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/google-auth | StatusCode: 500 | Duration: 624ms | 500 Internal Server Error","timestamp":"2026-05-28T10:17:13.203Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T10:19:35.013Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T10:19:35.040Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T10:19:35.059Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T10:21:29.701Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T10:21:29.704Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T10:21:29.719Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T10:21:29.722Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T10:21:29.730Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T10:21:29.733Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T10:22:51.096Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T10:22:51.118Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T10:22:51.130Z"}
+{"level":"error","message":"Error verifying Google token: Cannot read properties of undefined (reading 'findUnique')","timestamp":"2026-05-28T10:24:08.416Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'findUnique')\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:161:52\n    at Proxy._transactionWithCallback (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:75:4806)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Object.verifyGoogleToken (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:160:22)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:115:55","timestamp":"2026-05-28T10:24:08.422Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/google-auth | StatusCode: 500 | Duration: 1138ms | 500 Internal Server Error","timestamp":"2026-05-28T10:24:08.429Z"}
+{"level":"error","message":"Error verifying Google token: Cannot read properties of undefined (reading 'findUnique')","timestamp":"2026-05-28T10:24:43.466Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'findUnique')\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:161:52\n    at Proxy._transactionWithCallback (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:75:4806)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Object.verifyGoogleToken (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:160:22)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:115:55","timestamp":"2026-05-28T10:24:43.468Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/google-auth | StatusCode: 500 | Duration: 89ms | 500 Internal Server Error","timestamp":"2026-05-28T10:24:43.470Z"}
+{"level":"error","message":"Error verifying Google token: Cannot read properties of undefined (reading 'findUnique')","timestamp":"2026-05-28T15:11:00.719Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'findUnique')\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:161:52\n    at Proxy._transactionWithCallback (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:75:4806)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Object.verifyGoogleToken (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:160:22)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:115:55","timestamp":"2026-05-28T15:11:00.724Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/google-auth | StatusCode: 500 | Duration: 122ms | 500 Internal Server Error","timestamp":"2026-05-28T15:11:00.727Z"}
+{"level":"error","message":"SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\body-parser\\lib\\types\\json.js:72:19)\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\body-parser\\lib\\read.js:162:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\n    at invokeCallback (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:524:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2026-05-28T15:12:56.765Z"}
+{"level":"error","message":"SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\body-parser\\lib\\types\\json.js:72:19)\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\body-parser\\lib\\read.js:162:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\n    at invokeCallback (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:524:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2026-05-28T15:14:54.752Z"}
+{"level":"error","message":"SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\body-parser\\lib\\types\\json.js:72:19)\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\body-parser\\lib\\read.js:162:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\n    at invokeCallback (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:524:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2026-05-28T15:15:46.413Z"}
+{"level":"error","message":"Error verifying Google token: Cannot read properties of undefined (reading 'findUnique')","timestamp":"2026-05-28T15:17:04.824Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'findUnique')\n    at C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:161:52\n    at Proxy._transactionWithCallback (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\@prisma\\client\\runtime\\client.js:75:4806)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Object.verifyGoogleToken (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:160:22)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:115:55","timestamp":"2026-05-28T15:17:04.825Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/google-auth | StatusCode: 500 | Duration: 99ms | 500 Internal Server Error","timestamp":"2026-05-28T15:17:04.827Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T15:23:17.205Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T15:23:17.207Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T15:23:17.236Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T15:23:17.235Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T15:23:17.253Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T15:23:17.254Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T15:28:08.877Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T15:28:08.873Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T15:28:08.922Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T15:28:08.927Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T15:28:08.956Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T15:28:08.956Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T15:28:43.774Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T15:28:43.775Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T15:28:43.786Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T15:28:43.787Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T15:28:43.795Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-05-28T15:28:43.795Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T16:49:00.378Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T16:49:00.402Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-05-28T16:49:00.405Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-05-28T16:49:00.422Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 50ms...","timestamp":"2026-05-28T16:49:00.811Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 50ms...","timestamp":"2026-05-28T16:49:00.812Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 50ms...","timestamp":"2026-05-28T16:49:00.812Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 50ms...","timestamp":"2026-05-28T16:49:00.816Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-28T16:49:00.878Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-28T16:49:00.878Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 100ms...","timestamp":"2026-05-28T16:49:00.879Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 100ms...","timestamp":"2026-05-28T16:49:00.879Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 100ms...","timestamp":"2026-05-28T16:49:00.880Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 100ms...","timestamp":"2026-05-28T16:49:00.880Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-28T16:49:00.985Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-28T16:49:00.985Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 150ms...","timestamp":"2026-05-28T16:49:00.986Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 150ms...","timestamp":"2026-05-28T16:49:00.986Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 150ms...","timestamp":"2026-05-28T16:49:00.986Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 150ms...","timestamp":"2026-05-28T16:49:00.987Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-28T16:49:01.140Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-28T16:49:01.140Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 200ms...","timestamp":"2026-05-28T16:49:01.141Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 200ms...","timestamp":"2026-05-28T16:49:01.142Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 200ms...","timestamp":"2026-05-28T16:49:01.140Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 200ms...","timestamp":"2026-05-28T16:49:01.141Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-28T16:49:01.356Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-28T16:49:01.356Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 250ms...","timestamp":"2026-05-28T16:49:01.357Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 250ms...","timestamp":"2026-05-28T16:49:01.357Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 250ms...","timestamp":"2026-05-28T16:49:01.357Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 250ms...","timestamp":"2026-05-28T16:49:01.358Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-28T16:49:01.619Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-28T16:49:01.618Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 300ms...","timestamp":"2026-05-28T16:49:01.619Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 300ms...","timestamp":"2026-05-28T16:49:01.619Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 300ms...","timestamp":"2026-05-28T16:49:01.619Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 300ms...","timestamp":"2026-05-28T16:49:01.619Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-28T16:49:01.934Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-05-28T16:49:01.934Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 350ms...","timestamp":"2026-05-28T16:49:01.934Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 350ms...","timestamp":"2026-05-28T16:49:01.935Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 350ms...","timestamp":"2026-05-28T16:49:01.935Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 350ms...","timestamp":"2026-05-28T16:49:01.935Z"}
