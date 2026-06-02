@@ -731,3 +731,54 @@
 {"level":"warn","message":"Attempting to reconnect to Redis in 350ms...","timestamp":"2026-05-28T16:49:01.935Z"}
 {"level":"warn","message":"Redis connection lost. Retrying in 350ms...","timestamp":"2026-05-28T16:49:01.935Z"}
 {"level":"warn","message":"Attempting to reconnect to Redis in 350ms...","timestamp":"2026-05-28T16:49:01.935Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-06-02T16:26:21.959Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-06-02T16:26:21.968Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-06-02T16:26:21.993Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-06-02T16:27:53.015Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-06-02T16:27:53.025Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-06-02T16:27:53.032Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-06-02T16:28:01.032Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-06-02T16:28:01.045Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-06-02T16:28:01.054Z"}
+{"level":"info","message":"Generated OTP for email ayushghale2081@gmail.com with session ID 1a347414-59b3-4085-8788-c7cb6d3b7ea3","timestamp":"2026-06-02T16:29:46.141Z"}
+{"level":"error","message":"Failed to initialize Kafka producer for sending OTP email to ayushghale2081@gmail.com: TOPICS is not defined","timestamp":"2026-06-02T16:29:46.144Z"}
+{"level":"info","message":"OTP email is queued for: ayushghale2081@gmail.com","timestamp":"2026-06-02T16:29:46.144Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-06-02T16:31:30.846Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-06-02T16:31:30.860Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-06-02T16:31:30.880Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-06-02T16:31:40.395Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-06-02T16:31:40.413Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-06-02T16:31:40.536Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-06-02T16:33:10.384Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-06-02T16:33:10.393Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-06-02T16:33:10.400Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-06-02T16:33:22.163Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-06-02T16:33:22.173Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-06-02T16:33:22.180Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-06-02T16:33:25.119Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-06-02T16:33:25.127Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-06-02T16:33:25.134Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-06-02T16:33:35.723Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-06-02T16:33:35.738Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-06-02T16:33:35.747Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-06-02T16:33:40.214Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-06-02T16:33:40.232Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-06-02T16:33:40.243Z"}
+{"level":"info","message":"Generated OTP for email ayushghale2081@gmail.com with session ID ac0f5bd8-ac83-40b8-b208-3916b63ddcd0","timestamp":"2026-06-02T16:33:53.711Z"}
+{"level":"info","message":"Kafka producer connected successfully","timestamp":"2026-06-02T16:33:54.691Z"}
+{"level":"error","message":"Failed to send message to topic undefined: Invalid topic","timestamp":"2026-06-02T16:33:54.693Z"}
+{"level":"error","message":"Error in sendOTPService for email ayushghale2081@gmail.com: Invalid topic","timestamp":"2026-06-02T16:33:54.694Z"}
+{"level":"error","message":"KafkaJSNonRetriableError: Invalid topic\n    at sendBatch (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\kafkajs\\src\\producer\\messageProducer.js:56:13)\n    at Object.send (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\node_modules\\kafkajs\\src\\producer\\messageProducer.js:120:12)\n    at NotificationProducer.sendMessage (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\kafka\\producer\\notification.producer.js:33:43)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Object.sendOTPService (C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\services\\auth.service.js:34:5)\n    at async C:\\Users\\HP\\Desktop\\Booking-Microservice\\backend\\user-service\\src\\controllers\\auth.controller.js:21:28","timestamp":"2026-06-02T16:33:54.697Z"}
+{"level":"error","message":"Method:POST | URL: /api/v1/auth/send-otp | StatusCode: 500 | Duration: 2346ms | 500 Internal Server Error","timestamp":"2026-06-02T16:33:54.712Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-06-02T16:36:25.739Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-06-02T16:36:25.755Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-06-02T16:36:25.775Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-06-02T16:36:38.070Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-06-02T16:36:38.084Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-06-02T16:36:38.096Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-06-02T16:36:54.564Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-06-02T16:36:54.574Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-06-02T16:36:54.581Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-06-02T16:37:00.374Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-06-02T16:37:00.384Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-06-02T16:37:00.391Z"}

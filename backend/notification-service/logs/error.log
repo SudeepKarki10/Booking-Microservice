@@ -1,0 +1,4 @@
+{"level":"error","message":"Error connecting Kafka consumer: Invalid topic notification.email.otp,notification.email.welcome (object), the topic name has to be a String or a RegExp","timestamp":"2026-06-02T16:23:22.819Z"}
+{"level":"error","message":"Error connecting Kafka consumer: Invalid topic notification.email.otp,notification.email.welcome (object), the topic name has to be a String or a RegExp","timestamp":"2026-06-02T16:23:37.422Z"}
+{"level":"error","message":"Error connecting Kafka consumer: Invalid topic notification.email.otp,notification.email.welcome (object), the topic name has to be a String or a RegExp","timestamp":"2026-06-02T16:23:42.207Z"}
+{"level":"error","message":"Error connecting Kafka consumer: Invalid topic notification.email.otp,notification.email.welcome (object), the topic name has to be a String or a RegExp","timestamp":"2026-06-02T16:23:48.284Z"}

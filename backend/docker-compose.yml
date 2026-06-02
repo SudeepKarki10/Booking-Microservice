@@ -1,5 +1,55 @@
 name: movie-booking-backend
 services:
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    container_name: zookeeper
+    restart: always
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+    volumes:
+      - zookeeper_data:/var/lib/zookeeper/data
+      - zookeeper_log:/var/lib/zookeeper/log
+    networks:
+      - booking-network      
+
+  kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: kafka
+    restart: always
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://localhost:9093
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+    ports:
+      - "9092:9092"
+      - "9093:9093"
+    volumes:
+      - kafka_data:/var/lib/kafka/data
+      - kafka_log:/var/lib/kafka/log
+    networks:
+      - booking-network        
+
+  kafka-ui:
+    image: provectuslabs/kafka-ui:latest
+    container_name: kafka-ui
+    restart: always
+    environment:
+      KAFKA_CLUSTERS_0_NAME: booking-cluster
+      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:9092
+      KAFKA_CLUSTERS_0_ZOOKEEPER: zookeeper:2181
+    ports:
+      - "8080:8080"
+    depends_on:
+      - kafka
+    networks:
+      - booking-network       
+
   postgres:
     image: postgres:15
     container_name: postgres
@@ -9,9 +59,11 @@ services:
       POSTGRES_PASSWORD: password
       POSTGRES_DB: postgres
     ports:
-      - "5433:5432" #first port is for host/local machine, second port is for container
+      - "5433:5432"
     volumes:
-      - postgres_data:/var/lib/postgresql/data #persist data even if container is stopped or removed
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - booking-network       
 
   pgadmin:
     image: dpage/pgadmin4
@@ -21,9 +73,11 @@ services:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
       PGADMIN_DEFAULT_PASSWORD: admin
     ports:
-      - "8081:80" #first port is for host/local machine, second port is for container
+      - "8081:80"
     depends_on:
-      - postgres #represents the service name postgres above
+      - postgres
+    networks:
+      - booking-network        
 
   redis:
     image: redis/redis-stack:6.2.6-v19
@@ -32,12 +86,21 @@ services:
     environment:
       - REDIS_ARGS=--requirepass mySecretPassword --appendonly yes
     ports:
-      - "6379:6379" #first port is for host/local machine, second port is for container for redis
-      - "8001:8001" #first port is for host/local machine, second port is for container for redis insight
+      - "6379:6379"
+      - "8001:8001"
     volumes:
-      - redis_data:/data #redis data persists even if container is stopped or removed
+      - redis_data:/data
+    networks:
+      - booking-network       
 
-#global fields :If you run docker compose down and destroy your Postgres container data remains safely stored in this global volume. The next time you run docker compose up, your old data is instantly reattached.
 volumes:
+  zookeeper_data:
+  zookeeper_log:
+  kafka_data:
+  kafka_log:
   postgres_data:
   redis_data:
+
+networks:
+  booking-network:            
+    driver: bridge

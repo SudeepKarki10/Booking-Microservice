@@ -36,3 +36,4 @@ exports.verifyToken = (accessToken) => {
 exports.verifyRefreshToken = (refreshToken) => {
     return jwt.verify(refreshToken, JWT_SECRET);
 }
+

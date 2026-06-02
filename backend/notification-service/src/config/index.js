@@ -31,12 +31,21 @@ const config = () =>{
 
 
         KAFKA_CLIENT_ID: process.env.KAFKA_CLIENT_ID || 'user-service',
-        KAFKA_BROKERS: process.env.KAFKA_BROKERS || 'localhost:9093'
+        KAFKA_BROKERS: process.env.KAFKA_BROKERS || 'localhost:9093',
+
+        SMTP_HOST: process.env.SMTP_HOST || 'smtp.gmail.com',
+        SMTP_PORT: process.env.SMTP_PORT || 587,
+        SMTP_USER: process.env.SMTP_USER,
+        SMTP_PASS: process.env.SMTP_PASS
     }
 }
 
 if(!config().GOOGLE_CLIENT_ID){
     throw new Error('GOOGLE_CLIENT_ID is required in environment variables');
+}
+
+if(!config().SMTP_HOST || !config().SMTP_PORT || !config().SMTP_USER || !config().SMTP_PASS){
+    throw new Error('SMTP configuration is required in environment variables');
 }
 
 module.exports = { config: config() };

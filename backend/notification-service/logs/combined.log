@@ -1,0 +1,26 @@
+{"level":"info","message":"Notification service is running on port 5000","timestamp":"2026-06-02T16:23:22.723Z"}
+{"level":"info","message":"Email consumer connected to Kafkasuccessfully","timestamp":"2026-06-02T16:23:22.818Z"}
+{"level":"info","message":"Notification service is running on port 5000","timestamp":"2026-06-02T16:23:37.380Z"}
+{"level":"info","message":"Email consumer connected to Kafkasuccessfully","timestamp":"2026-06-02T16:23:37.421Z"}
+{"level":"info","message":"Notification service is running on port 5000","timestamp":"2026-06-02T16:23:42.171Z"}
+{"level":"info","message":"Email consumer connected to Kafkasuccessfully","timestamp":"2026-06-02T16:23:42.206Z"}
+{"level":"info","message":"Notification service is running on port 5000","timestamp":"2026-06-02T16:23:48.252Z"}
+{"level":"info","message":"Email consumer connected to Kafkasuccessfully","timestamp":"2026-06-02T16:23:48.283Z"}
+{"level":"info","message":"Notification service is running on port 5000","timestamp":"2026-06-02T16:24:14.408Z"}
+{"level":"info","message":"Email consumer connected to Kafkasuccessfully","timestamp":"2026-06-02T16:24:14.517Z"}
+{"level":"info","message":"Notification service started successfully","timestamp":"2026-06-02T16:24:26.727Z"}
+{"level":"info","message":"Notification service is running on port 5000","timestamp":"2026-06-02T16:24:35.476Z"}
+{"level":"info","message":"Email consumer connected to Kafkasuccessfully","timestamp":"2026-06-02T16:24:35.513Z"}
+{"level":"info","message":"Notification service is running on port 5000","timestamp":"2026-06-02T16:24:41.569Z"}
+{"level":"info","message":"Email consumer connected to Kafkasuccessfully","timestamp":"2026-06-02T16:24:41.602Z"}
+{"level":"info","message":"Notification service started successfully","timestamp":"2026-06-02T16:25:32.335Z"}
+{"key":"otp-ayushghale2081@gmail.com","level":"info","message":"Received message on topic notification.email.otp with key otp-ayushghale2081@gmail.com: {\"email\":\"ayushghale2081@gmail.com\",\"otp\":\"168078\",\"ttlMinutes\":5}","offset":"0","partition":0,"timestamp":"2026-06-02T16:37:08.643Z"}
+{"level":"info","message":"Notification service is running on port 5000","timestamp":"2026-06-02T16:37:55.401Z"}
+{"level":"info","message":"Email consumer connected to Kafkasuccessfully","timestamp":"2026-06-02T16:37:55.463Z"}
+{"level":"info","message":"Notification service started successfully","timestamp":"2026-06-02T16:37:58.623Z"}
+{"key":"otp-ayushghale2081@gmail.com","level":"info","message":"Received message on topic notification.email.otp with key otp-ayushghale2081@gmail.com: {\"email\":\"ayushghale2081@gmail.com\",\"otp\":\"901744\",\"ttlMinutes\":5}","offset":"1","partition":0,"timestamp":"2026-06-02T16:38:06.022Z"}
+{"level":"info","message":"[email.service.js/sendOtpEmailWithRetry] Sending OTP email to ayushghale2081@gmail.com with OTP 901744 valid for 5 minutes","timestamp":"2026-06-02T16:38:06.039Z"}
+{"level":"info","message":"OTP Email sent to ayushghale2081@gmail.com successfully. MessageId: <221c40b3-7090-30ef-8edd-ac9290588ac2@gmail.com>","timestamp":"2026-06-02T16:38:09.937Z"}
+{"level":"info","message":"[kafka/consumer/email.consumer./handleOtpMail] OTP email sent to ayushghale2081@gmail.com with OTP 901744 valid for 5 minutes","timestamp":"2026-06-02T16:38:09.938Z"}
+{"level":"info","message":"Notification service is running on port 5000","timestamp":"2026-06-02T16:39:36.905Z"}
+{"level":"info","message":"Email consumer connected to Kafkasuccessfully","timestamp":"2026-06-02T16:39:36.947Z"}

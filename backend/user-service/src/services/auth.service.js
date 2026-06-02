@@ -6,6 +6,7 @@ const {generateAccessToken, generateRefreshToken, verifyRefreshToken} = require(
 const jwt = require('jsonwebtoken');
 const {config} = require('../config');
 const logger = require('../utils/logger');
+const notificationProducer = require('../kafka/producer/notification.producer');
 
 const {sendOtpEmail} = require('../utils/email');
 const {getInstance} = require('../config/redis');
@@ -28,7 +29,10 @@ const sendOTPService = async(firstName, lastName, email, password) => {
     //3. generate OTP and save it in redis with a unique session ID
     const {otp, otpSessionId} = await generateAndStoreOTP(meta);
     
-    await sendOtpEmail(email, otp);
+    // this was happening in synchronous way and if there is any issue with email service then the user will not receive the OTP but still the OTP session will be created in redis and user will not be able to request for new OTP until the previous OTP session expires. To avoid this we can send the email in asynchronous way and return the otpSessionId to the client immediately after creating the OTP session in redis. This way even if there is an issue with email service, user can still request for new OTP after the previous OTP session expires.
+    //await sendOtpEmail(email, otp); instead we use kafka producer to send the email in asynchronous way
+    await notificationProducer.sendOtpEmail(email, otp, (config.OTP_TTL / 60)); // passing OTP TTL in minutes to the email template so that user can know how long the OTP is valid for
+    logger.info(`OTP email is queued for: ${email}`);
     return {otpSessionId};
    }catch(error){
     logger.error(`Error in sendOTPService for email ${email}: ${error.message}`);
@@ -46,7 +50,7 @@ const verifyOtpservice = async (otp, otpSessionId) => {
         throw new BadRequestError(message, "INVALID_OTP");
     }
 
-    //if otp is valid then create the user in the database using the meta data and delete the OTP session from      redis
+    //if otp is valid then create the user in the database using the meta data and delete the OTP session from redis
     const user = await prisma.user.create({
         data: {
             name: `${meta.firstName} ${meta.lastName}`,
