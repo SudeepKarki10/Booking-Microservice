@@ -27,8 +27,7 @@ class EmailService {
         throw new Error(`Failed to send OTP email to ${email} after ${retries} attempts`);
     }
 
-   
-        setTimeout(() => {
+    setTimeout(() => {
              logger.info(`[email.service.js/sendOtpEmailWithRetry] Sending OTP email to ${email} with OTP ${otp} valid for ${ttlMinutes} minutes`);
         }, 1000 * retries); // Exponential backoff for retries
     this.retries = this.retries + 1;

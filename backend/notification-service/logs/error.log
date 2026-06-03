@@ -2,3 +2,7 @@
 {"level":"error","message":"Error connecting Kafka consumer: Invalid topic notification.email.otp,notification.email.welcome (object), the topic name has to be a String or a RegExp","timestamp":"2026-06-02T16:23:37.422Z"}
 {"level":"error","message":"Error connecting Kafka consumer: Invalid topic notification.email.otp,notification.email.welcome (object), the topic name has to be a String or a RegExp","timestamp":"2026-06-02T16:23:42.207Z"}
 {"level":"error","message":"Error connecting Kafka consumer: Invalid topic notification.email.otp,notification.email.welcome (object), the topic name has to be a String or a RegExp","timestamp":"2026-06-02T16:23:48.284Z"}
+{"level":"error","message":"[kafka/consumer/email.consumer./handleWelcomeMail] Invalid data for welcome email: {\"email\":\"ayushghale2081@gmail.com\"}","timestamp":"2026-06-03T12:11:47.816Z"}
+{"level":"error","message":"Failed to parse/process message value: Invalid data for welcome email","timestamp":"2026-06-03T12:11:47.819Z"}
+{"level":"error","message":"[kafka/consumer/email.consumer./handleWelcomeMail] Invalid data for welcome email: {\"email\":\"ayushghale2081@gmail.com\"}","timestamp":"2026-06-03T12:16:55.412Z"}
+{"level":"error","message":"Failed to parse/process message value: Invalid data for welcome email","timestamp":"2026-06-03T12:16:55.414Z"}

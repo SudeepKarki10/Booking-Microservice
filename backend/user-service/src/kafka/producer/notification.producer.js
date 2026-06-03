@@ -59,6 +59,21 @@ class NotificationProducer{
         }
     }
 
+    async sendWelcomeEmail(email, name){
+        try{
+            return await this.sendMessage(
+                TOPICS.WELCOME_EMAIL,
+                `welcome-${email}`,
+                {
+                    email, name
+                }
+            );
+        }catch(error){
+            logger.error(`Failed to send welcome email to ${email} via Kafka: ${error.message}`);
+            throw error;
+        }
+    }
+
 }
 
 module.exports = new NotificationProducer();

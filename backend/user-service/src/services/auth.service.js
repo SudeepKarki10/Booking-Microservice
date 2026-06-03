@@ -59,7 +59,7 @@ const verifyOtpservice = async (otp, otpSessionId) => {
             emailVerified: true
         }
     });
-    await sendOtpEmail(meta.email, 'Your account has been created successfully.');
+    await notificationProducer.sendWelcomeEmail(meta.email, meta.name );
     return user;
    }catch(error){
     logger.error(`Error in verifyOtpservice: ${error.message}`);    
