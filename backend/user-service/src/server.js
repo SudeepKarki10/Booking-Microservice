@@ -15,6 +15,7 @@ const {config} =require('./config');
 
 //Routes import
 const authRoutes = require('./routes/auth.route');
+const userRoutes = require('./routes/user.route');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -27,6 +28,8 @@ app.use(corsMiddleware);
 
 
 app.use(`${config.API_URL}/auth`, authRoutes);
+app.use(`${config.API_URL}`, userRoutes);
+
 
 app.get('/', (req, res) => {
     res.send('User Service is running');
