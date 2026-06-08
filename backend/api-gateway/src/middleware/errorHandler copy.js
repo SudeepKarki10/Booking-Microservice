@@ -3,9 +3,7 @@ const {AppError} = require('../utils/error');
 
 function errorHandler(err, req, res, next) {
     logger.error(err.stack);
-    
-    
-    
+
     if(err instanceof AppError) {
         res.status(err.statusCode).json({
                 success: false,

@@ -1,18 +1,18 @@
 const winston = require('winston');
-
+const {config} = require('../config');
 const logger = winston.createLogger({
-    level: process.env.NODE_ENV === 'production'?'info':'debug',
+    level: config.NODE_ENV === 'production'?'info':'debug',
     format: winston.format.combine(
         winston.format.timestamp(),
         winston.format.errors({stack: true}),
         winston.format.splat(),
         winston.format.json()
     ),
-    defaultMeta : {service: 'booking-service'},
-    transports: [
+    defaultMeta : { service: config.SERVICE_NAME },
+    transports:[
         new winston.transports.Console(
             {
-               format: winston.format.combine(
+               format: winston.format.combine(  
                 winston.format.colorize(),
                 winston.format.simple()
                )

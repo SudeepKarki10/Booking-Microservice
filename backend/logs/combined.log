@@ -1,9 +1,0 @@
-{"level":"info","message":"Server is running on port undefined","service":"booking-service","timestamp":"2026-05-13T13:55:16.133Z"}
-{"level":"info","message":"Server is running on port undefined","service":"booking-service","timestamp":"2026-05-13T13:55:34.861Z"}
-{"level":"info","message":"Server is running on port undefined","service":"booking-service","timestamp":"2026-05-13T13:55:59.317Z"}
-{"level":"info","message":"GET url:: /","service":"booking-service","timestamp":"2026-05-13T13:56:21.781Z"}
-{"level":"info","message":"GET url:: /favicon.ico","service":"booking-service","timestamp":"2026-05-13T13:56:23.585Z"}
-{"level":"info","message":"Server is running on port 3000","service":"booking-service","timestamp":"2026-05-13T14:45:27.960Z"}
-{"level":"info","message":"Server is running on port 3000","service":"booking-service","timestamp":"2026-05-23T02:33:17.064Z"}
-{"level":"info","message":"Server is running on port 3000","service":"booking-service","timestamp":"2026-05-23T02:33:36.259Z"}
-{"level":"info","message":"Server is running on port 3000","service":"booking-service","timestamp":"2026-05-23T02:33:46.060Z"}

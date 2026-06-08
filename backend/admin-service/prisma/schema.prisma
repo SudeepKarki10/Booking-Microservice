@@ -1,0 +1,183 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Theater {
+  id          String @id @default(uuid())
+
+  name        String  // QFXCinema
+  code        String @unique  // QFX
+
+  district    String  //kathmandu
+  location    String  //Baneshwor
+
+  screens     Screen[]  // 3d, laserMX
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Screen {
+  id          String @id @default(uuid())
+
+  name        String  //3d or laserMX
+  theaterId   String  // QFX -> 3d or laserMX while EyePlex-> Standard or premium
+
+  theater     Theater @relation(
+      fields:[theaterId],
+      references:[id],
+      onDelete: Cascade
+  )
+
+  seats       Seat[]
+  showtimes   Showtime[]
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([theaterId,name])
+}
+
+model Seat {
+
+  id          String @id @default(uuid())
+
+  row         String
+  number      Int
+
+  type        SeatType
+
+  screenId    String
+
+  screen Screen
+      @relation(
+        fields:[screenId],
+        references:[id],
+        onDelete:Cascade
+      )
+
+  inventories ShowtimeSeat[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([screenId,row,number])
+}
+
+model Movie {
+
+  id            String @id @default(uuid())
+
+  title         String
+  description   String?
+
+  language      String
+
+  genre         String
+
+  durationMins  Int
+
+  contentRating String
+
+  posterUrl     String?
+
+  releaseDate   DateTime?
+
+  active        Boolean @default(true)
+
+  showtimes Showtime[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Showtime {
+
+  id String
+     @id
+     @default(uuid())
+
+  movieId String
+  screenId String
+
+  movie Movie
+      @relation(
+        fields:[movieId],
+        references:[id]
+      )
+
+  screen Screen
+      @relation(
+        fields:[screenId],
+        references:[id]
+      )
+
+  startTime DateTime
+  endTime DateTime
+
+  basePrice Decimal
+      @db.Decimal(10,2)
+
+  status ShowStatus
+      @default(ACTIVE)
+
+  seats ShowtimeSeat[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([startTime])
+}
+
+model ShowtimeSeat {
+
+  id String
+     @id
+     @default(uuid())
+
+  showtimeId String
+
+  seatId String
+
+  seat Seat
+      @relation(
+          fields:[seatId],
+          references:[id]
+      )
+
+  showtime Showtime
+      @relation(
+          fields:[showtimeId],
+          references:[id]
+      )
+
+  status SeatStatus
+      @default(AVAILABLE)
+
+  price Decimal
+      @db.Decimal(10,2)
+
+  @@unique([showtimeId,seatId])
+}
+
+enum SeatType {
+  REGULAR
+  PREMIUM
+  VIP
+}
+
+enum ShowStatus {
+  ACTIVE
+  CANCELLED
+  COMPLETED
+}
+
+enum SeatStatus {
+  AVAILABLE
+  BOOKED
+  BLOCKED
+}
