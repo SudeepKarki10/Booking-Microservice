@@ -81,6 +81,31 @@ app.use('/v1/users', proxy(process.env.USER_SERVICE_URL, {
 }))
 
 
+// setting proxy for admin service 
+app.use('/v1/admin', proxy(process.env.ADMIN_SERVICE_URL, {
+    ...proxyOptions,
+    // Override the path resolver to remove "/admin" and map /v1/admin/* to /api/v1/*
+    proxyReqPathResolver: (req) => {
+        return req.originalUrl.replace(/^\/v1\/admin/, '/api/v1');
+    },
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+        proxyReqOpts.headers['Content-type'] = "application/json";
+        // Ensure admin exists before accessing id to prevent crashes
+        if (srcReq.user) {
+            proxyReqOpts.headers['x-admin-id'] = srcReq.user.id;
+        }
+
+        return proxyReqOpts;
+    },
+    proxyReqBodyDecorator: (bodyContent, srcReq) => {
+        return srcReq.body ? JSON.stringify(srcReq.body) : bodyContent;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+        logger.info(`Response received from admin service: ${proxyRes.statusCode}`);
+
+        return proxyResData;
+    }
+}))
 
 app.use(errorHandler);
 

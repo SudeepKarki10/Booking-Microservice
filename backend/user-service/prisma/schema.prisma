@@ -18,10 +18,17 @@ model User {
   email     String   @unique
   password  String?
   emailVerified Boolean @default(false)
+  role      Role     @default(USER)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   authProviders AuthProvider[]
 }
+
+enum Role {
+  USER
+  ADMIN
+}
+
 
 model AuthProvider{
   id String @id @default(uuid())

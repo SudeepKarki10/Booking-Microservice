@@ -1,15 +1,16 @@
-const prisma = require("../config/prisma");
 const { ConflictError } = require("../utils/error");
 const logger = require("../utils/logger");
+const adminProducer = require("../kafka/producer/admin.producer");
+const prisma = require("../config/prisma");
 
 const createTheater = async (data) => {
-    const { name, code, district, location, screens } = data;
+    const { name, code, district, location } = data;
 
     const existingTheater = await prisma.theater.findUnique({
         where: { code }
     });
 
-    if (existing) {
+    if (existingTheater) {
         throw new ConflictError("Theater with code exists already");
     }
 
@@ -26,4 +27,4 @@ const createTheater = async (data) => {
     return theater;
 }
 
-module.exports = { createThreater }
+module.exports = { createTheater }

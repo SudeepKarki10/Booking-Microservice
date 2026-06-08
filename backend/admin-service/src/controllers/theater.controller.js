@@ -1,7 +1,7 @@
 const { BadRequestError } = require("../utils/error");
 const asyncHandler = require("../utils/asyncHandler");
 
-const { createThreater } = require("../services/threater.service");
+const { createTheater: createTheaterService } = require("../services/theater.service");
 
 /**
  *
@@ -21,18 +21,17 @@ id          String @id @default(uuid())
  */
 
 const createTheater = asyncHandler(async (req, res) => {
-    const { name, code, district, location, screens } = req.body;
+    const { name, code, district, location } = req.body;
 
-    if (!name || !code || !district || !location || !screens) {
-        throw new BadRequestError(400, "All fields like name, code, district,location, and screen are required");
+    if (!name || !code || !district || !location) {
+        throw new BadRequestError(400, "All fields like name, code, district,and location are required");
     }
 
-    const threater = await createThreater({
+    const threater = await createTheaterService({
         name,
         code: code.toUpperCase(),
         district,
-        location,
-        screens
+        location
     });
 
     return res.status(200).json({

@@ -12,7 +12,7 @@ const reqLogger = require('./middlewares/reqLogger');
 const logger = require('./utils/logger');
 const { config } = require('./config');
 
-
+const theaterRoutes = require("./routes/theater.route");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -21,12 +21,11 @@ app.use(cookieParser());
 app.use(reqLogger);
 
 
-
-
+app.use(`${config.API_URL}/theater`, theaterRoutes);
 
 
 app.get('/', (req, res) => {
-    res.send('User Service is running');
+    res.send('Admin Service is running');
 });
 
 app.get('/health', (req, res) => {

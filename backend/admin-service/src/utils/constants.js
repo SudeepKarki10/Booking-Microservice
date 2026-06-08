@@ -1,6 +1,5 @@
 const TOPICS = {
-    OTP_EMAIL: 'notification.email.otp',
-    WELCOME_EMAIL: 'notification.email.welcome',
+    THEATER_CREATE: 'theater.create',
 };
 
 module.exports = { TOPICS };
