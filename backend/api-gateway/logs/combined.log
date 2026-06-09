@@ -720,3 +720,30 @@
 {"level":"info","message":"Received POST request to /v1/admin/theater/create","service":"api-gateway","timestamp":"2026-06-08T16:21:45.055Z"}
 {"level":"info","message":"Request body: [object Object]","service":"api-gateway","timestamp":"2026-06-08T16:21:45.057Z"}
 {"level":"info","message":"Response received from admin service: 404","service":"api-gateway","timestamp":"2026-06-08T16:21:45.093Z"}
+{"level":"info","message":"Received POST request to /v1/admin/theater/create","service":"api-gateway","timestamp":"2026-06-08T16:25:09.347Z"}
+{"level":"info","message":"Request body: [object Object]","service":"api-gateway","timestamp":"2026-06-08T16:25:09.347Z"}
+{"level":"info","message":"Response received from admin service: 500","service":"api-gateway","timestamp":"2026-06-08T16:25:09.414Z"}
+{"level":"info","message":"Received POST request to /v1/admin/theater/create","service":"api-gateway","timestamp":"2026-06-08T16:27:51.828Z"}
+{"level":"info","message":"Request body: [object Object]","service":"api-gateway","timestamp":"2026-06-08T16:27:51.830Z"}
+{"level":"info","message":"Response received from admin service: 500","service":"api-gateway","timestamp":"2026-06-08T16:27:52.219Z"}
+{"level":"info","message":"Received POST request to /v1/admin/theater/create","service":"api-gateway","timestamp":"2026-06-08T16:31:09.797Z"}
+{"level":"info","message":"Request body: [object Object]","service":"api-gateway","timestamp":"2026-06-08T16:31:09.798Z"}
+{"level":"info","message":"Response received from admin service: 500","service":"api-gateway","timestamp":"2026-06-08T16:31:10.450Z"}
+{"level":"info","message":"Received POST request to /v1/admin/theater/create","service":"api-gateway","timestamp":"2026-06-08T16:31:41.455Z"}
+{"level":"info","message":"Request body: [object Object]","service":"api-gateway","timestamp":"2026-06-08T16:31:41.455Z"}
+{"level":"info","message":"Response received from admin service: 500","service":"api-gateway","timestamp":"2026-06-08T16:31:41.794Z"}
+{"level":"info","message":"Received POST request to /v1/admin/theater/create","service":"api-gateway","timestamp":"2026-06-08T16:32:08.024Z"}
+{"level":"info","message":"Request body: [object Object]","service":"api-gateway","timestamp":"2026-06-08T16:32:08.025Z"}
+{"level":"info","message":"Response received from admin service: 500","service":"api-gateway","timestamp":"2026-06-08T16:32:08.417Z"}
+{"level":"info","message":"Received POST request to /v1/admin/theater/create","service":"api-gateway","timestamp":"2026-06-08T16:36:32.384Z"}
+{"level":"info","message":"Request body: [object Object]","service":"api-gateway","timestamp":"2026-06-08T16:36:32.394Z"}
+{"level":"info","message":"Response received from admin service: 400","service":"api-gateway","timestamp":"2026-06-08T16:36:32.456Z"}
+{"level":"info","message":"Received POST request to /v1/admin/theater/create","service":"api-gateway","timestamp":"2026-06-08T16:37:18.631Z"}
+{"level":"info","message":"Request body: [object Object]","service":"api-gateway","timestamp":"2026-06-08T16:37:18.632Z"}
+{"level":"info","message":"Response received from admin service: 500","service":"api-gateway","timestamp":"2026-06-08T16:37:18.674Z"}
+{"level":"info","message":"Received POST request to /v1/admin/theater/create","service":"api-gateway","timestamp":"2026-06-08T16:39:21.689Z"}
+{"level":"info","message":"Request body: [object Object]","service":"api-gateway","timestamp":"2026-06-08T16:39:21.690Z"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:6001","service":"api-gateway","timestamp":"2026-06-08T16:39:21.713Z"}
+{"level":"info","message":"Received POST request to /v1/admin/theater/create","service":"api-gateway","timestamp":"2026-06-08T16:39:35.304Z"}
+{"level":"info","message":"Request body: [object Object]","service":"api-gateway","timestamp":"2026-06-08T16:39:35.305Z"}
+{"level":"info","message":"Response received from admin service: 200","service":"api-gateway","timestamp":"2026-06-08T16:39:39.171Z"}

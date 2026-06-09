@@ -16,6 +16,7 @@ model Theater {
   location    String  //Baneshwor
 
   screens     Screen[]  // 3d, laserMX
+  isActive    Boolean
 
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
