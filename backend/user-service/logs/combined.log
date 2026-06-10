@@ -1183,3 +1183,180 @@
 {"level":"info","message":"Server is running on port 4001","timestamp":"2026-06-08T16:19:32.966Z"}
 {"level":"info","message":"Connected to Redis","timestamp":"2026-06-08T16:19:32.980Z"}
 {"level":"info","message":"Redis connection is ready","timestamp":"2026-06-08T16:19:33.030Z"}
+{"level":"info","message":"Server is running on port 4001","timestamp":"2026-06-10T14:43:58.152Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:43:58.164Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 50ms...","timestamp":"2026-06-10T14:43:58.166Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 50ms...","timestamp":"2026-06-10T14:43:58.167Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:43:58.221Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 100ms...","timestamp":"2026-06-10T14:43:58.222Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 100ms...","timestamp":"2026-06-10T14:43:58.223Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:43:58.332Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 150ms...","timestamp":"2026-06-10T14:43:58.333Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 150ms...","timestamp":"2026-06-10T14:43:58.334Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:43:58.506Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 200ms...","timestamp":"2026-06-10T14:43:58.508Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 200ms...","timestamp":"2026-06-10T14:43:58.509Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:43:58.724Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 250ms...","timestamp":"2026-06-10T14:43:58.725Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 250ms...","timestamp":"2026-06-10T14:43:58.726Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:43:58.978Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 300ms...","timestamp":"2026-06-10T14:43:58.980Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 300ms...","timestamp":"2026-06-10T14:43:58.980Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:43:59.289Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 350ms...","timestamp":"2026-06-10T14:43:59.290Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 350ms...","timestamp":"2026-06-10T14:43:59.290Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:43:59.645Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 400ms...","timestamp":"2026-06-10T14:43:59.647Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 400ms...","timestamp":"2026-06-10T14:43:59.648Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:00.071Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 450ms...","timestamp":"2026-06-10T14:44:00.073Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 450ms...","timestamp":"2026-06-10T14:44:00.074Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:00.529Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 500ms...","timestamp":"2026-06-10T14:44:00.531Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 500ms...","timestamp":"2026-06-10T14:44:00.532Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:01.035Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 550ms...","timestamp":"2026-06-10T14:44:01.036Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 550ms...","timestamp":"2026-06-10T14:44:01.037Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:01.608Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 600ms...","timestamp":"2026-06-10T14:44:01.610Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 600ms...","timestamp":"2026-06-10T14:44:01.611Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:02.227Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 650ms...","timestamp":"2026-06-10T14:44:02.228Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 650ms...","timestamp":"2026-06-10T14:44:02.229Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:02.885Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 700ms...","timestamp":"2026-06-10T14:44:02.886Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 700ms...","timestamp":"2026-06-10T14:44:02.887Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:03.594Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 750ms...","timestamp":"2026-06-10T14:44:03.596Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 750ms...","timestamp":"2026-06-10T14:44:03.597Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:04.364Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 800ms...","timestamp":"2026-06-10T14:44:04.365Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 800ms...","timestamp":"2026-06-10T14:44:04.367Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:05.180Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 850ms...","timestamp":"2026-06-10T14:44:05.181Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 850ms...","timestamp":"2026-06-10T14:44:05.182Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:06.034Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 900ms...","timestamp":"2026-06-10T14:44:06.035Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 900ms...","timestamp":"2026-06-10T14:44:06.036Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:06.953Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 950ms...","timestamp":"2026-06-10T14:44:06.954Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 950ms...","timestamp":"2026-06-10T14:44:06.955Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:07.928Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1000ms...","timestamp":"2026-06-10T14:44:07.929Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1000ms...","timestamp":"2026-06-10T14:44:07.930Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:08.936Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1050ms...","timestamp":"2026-06-10T14:44:08.937Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1050ms...","timestamp":"2026-06-10T14:44:08.938Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:09.994Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1100ms...","timestamp":"2026-06-10T14:44:09.996Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1100ms...","timestamp":"2026-06-10T14:44:09.997Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:11.103Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1150ms...","timestamp":"2026-06-10T14:44:11.104Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1150ms...","timestamp":"2026-06-10T14:44:11.105Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:12.264Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1200ms...","timestamp":"2026-06-10T14:44:12.267Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1200ms...","timestamp":"2026-06-10T14:44:12.268Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:13.473Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1250ms...","timestamp":"2026-06-10T14:44:13.475Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1250ms...","timestamp":"2026-06-10T14:44:13.475Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:14.741Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1300ms...","timestamp":"2026-06-10T14:44:14.743Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1300ms...","timestamp":"2026-06-10T14:44:14.744Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:16.046Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1350ms...","timestamp":"2026-06-10T14:44:16.048Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1350ms...","timestamp":"2026-06-10T14:44:16.048Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:17.409Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1400ms...","timestamp":"2026-06-10T14:44:17.411Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1400ms...","timestamp":"2026-06-10T14:44:17.412Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:18.823Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1450ms...","timestamp":"2026-06-10T14:44:18.825Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1450ms...","timestamp":"2026-06-10T14:44:18.826Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:20.293Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1500ms...","timestamp":"2026-06-10T14:44:20.295Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1500ms...","timestamp":"2026-06-10T14:44:20.296Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:21.806Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1550ms...","timestamp":"2026-06-10T14:44:21.808Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1550ms...","timestamp":"2026-06-10T14:44:21.808Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:23.364Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1600ms...","timestamp":"2026-06-10T14:44:23.365Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1600ms...","timestamp":"2026-06-10T14:44:23.366Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:24.977Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1650ms...","timestamp":"2026-06-10T14:44:24.979Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1650ms...","timestamp":"2026-06-10T14:44:24.980Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:26.632Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1700ms...","timestamp":"2026-06-10T14:44:26.633Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1700ms...","timestamp":"2026-06-10T14:44:26.633Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:28.348Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1750ms...","timestamp":"2026-06-10T14:44:28.349Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1750ms...","timestamp":"2026-06-10T14:44:28.350Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:30.110Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1800ms...","timestamp":"2026-06-10T14:44:30.112Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1800ms...","timestamp":"2026-06-10T14:44:30.113Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:31.928Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1850ms...","timestamp":"2026-06-10T14:44:31.930Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1850ms...","timestamp":"2026-06-10T14:44:31.931Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:33.806Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1900ms...","timestamp":"2026-06-10T14:44:33.808Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1900ms...","timestamp":"2026-06-10T14:44:33.809Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:35.722Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 1950ms...","timestamp":"2026-06-10T14:44:35.722Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 1950ms...","timestamp":"2026-06-10T14:44:35.723Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:37.678Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:44:37.680Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:44:37.681Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:39.688Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:44:39.690Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:44:39.691Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:41.700Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:44:41.702Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:44:41.702Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:43.709Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:44:43.711Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:44:43.711Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:45.729Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:44:45.750Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:44:45.766Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:47.782Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:44:47.784Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:44:47.785Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:49.789Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:44:49.792Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:44:49.794Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:51.805Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:44:51.807Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:44:51.808Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:53.815Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:44:53.816Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:44:53.817Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:55.824Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:44:55.826Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:44:55.827Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:44:57.835Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:44:58.376Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:44:58.379Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:45:00.386Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:45:00.388Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:45:00.389Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:45:02.396Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:45:02.398Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:45:02.399Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:45:04.410Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:45:04.412Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:45:04.413Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:45:06.425Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:45:06.427Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:45:06.429Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:45:08.435Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:45:08.437Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:45:08.438Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:45:10.443Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:45:10.445Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:45:10.446Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:45:12.450Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:45:12.452Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:45:12.453Z"}
+{"address":"::1","code":"ECONNREFUSED","errno":-4078,"level":"error","message":"Redis error connect ECONNREFUSED ::1:6379","port":6379,"stack":"Error: connect ECONNREFUSED ::1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1615:16)","syscall":"connect","timestamp":"2026-06-10T14:45:14.461Z"}
+{"level":"warn","message":"Redis connection lost. Retrying in 2000ms...","timestamp":"2026-06-10T14:45:14.690Z"}
+{"level":"warn","message":"Attempting to reconnect to Redis in 2000ms...","timestamp":"2026-06-10T14:45:14.692Z"}
+{"level":"info","message":"Connected to Redis","timestamp":"2026-06-10T14:45:16.742Z"}
+{"level":"info","message":"Redis connection is ready","timestamp":"2026-06-10T14:45:16.778Z"}

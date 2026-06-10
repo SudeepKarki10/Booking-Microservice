@@ -13,6 +13,7 @@ const logger = require('./utils/logger');
 const { config } = require('./config');
 
 const theaterRoutes = require("./routes/theater.route");
+const screenRoutes = require("./routes/screen.route");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -22,6 +23,12 @@ app.use(reqLogger);
 
 
 app.use(`${config.API_URL}/theater`, theaterRoutes);
+
+//for theaters 
+app.use(`${config.API_URL}`, theaterRoutes);
+
+//for screens
+app.use(`${config.API_URL}/screen`, screenRoutes);
 
 
 app.get('/', (req, res) => {

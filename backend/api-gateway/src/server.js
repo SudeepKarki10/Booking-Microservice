@@ -18,7 +18,8 @@ app.use(express.json());
 
 app.use((req, res, next) => {
     logger.info(`Received ${req.method} request to ${req.url}`);
-    logger.info(`Request body: ${req.body}`);
+    logger.info(`Request headers: ${JSON.stringify(req.headers)}`);
+    logger.info(`Request body: ${JSON.stringify(req.body)}`);
     next();
 });
 
@@ -82,7 +83,7 @@ app.use('/v1/users', proxy(process.env.USER_SERVICE_URL, {
 
 
 // setting proxy for admin service 
-app.use('/v1/admin', proxy(process.env.ADMIN_SERVICE_URL, {
+app.use('/v1/admin', authMiddleware, proxy(process.env.ADMIN_SERVICE_URL, {
     ...proxyOptions,
     // Override the path resolver to remove "/admin" and map /v1/admin/* to /api/v1/*
     proxyReqPathResolver: (req) => {

@@ -52,3 +52,6 @@
 {"key":"welcome-ayushghale2081@gmail.com","level":"info","message":"Received message on topic notification.email.welcome with key welcome-ayushghale2081@gmail.com: {\"email\":\"ayushghale2081@gmail.com\"}","offset":"1","partition":0,"timestamp":"2026-06-03T12:16:55.412Z"}
 {"level":"error","message":"[kafka/consumer/email.consumer./handleWelcomeMail] Invalid data for welcome email: {\"email\":\"ayushghale2081@gmail.com\"}","timestamp":"2026-06-03T12:16:55.412Z"}
 {"level":"error","message":"Failed to parse/process message value: Invalid data for welcome email","timestamp":"2026-06-03T12:16:55.414Z"}
+{"level":"info","message":"Notification service is running on port 5000","timestamp":"2026-06-10T14:44:27.712Z"}
+{"level":"info","message":"Email consumer connected to Kafkasuccessfully","timestamp":"2026-06-10T14:46:06.811Z"}
+{"level":"info","message":"Notification service started successfully","timestamp":"2026-06-10T14:46:10.138Z"}
