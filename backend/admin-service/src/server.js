@@ -14,6 +14,7 @@ const { config } = require('./config');
 
 const theaterRoutes = require("./routes/theater.route");
 const screenRoutes = require("./routes/screen.route");
+const movieRoutes = require("./routes/movie.route");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -29,6 +30,9 @@ app.use(`${config.API_URL}`, theaterRoutes);
 
 //for screens
 app.use(`${config.API_URL}/screen`, screenRoutes);
+
+//for movie
+app.use(`${config.API_URL}/movies`, movieRoutes);
 
 
 app.get('/', (req, res) => {

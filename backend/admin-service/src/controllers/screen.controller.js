@@ -53,7 +53,25 @@ const getAllScreensByTheaterId = asyncHandler(async (req, res) => {
         message: "Screens fetched successfully",
         data: screens
     });
-})
+});
+
+const configureScreenSeats = asyncHandler(async (req, res) => {
+    const { screenId } = req.params;
+    const { layout } = req.body;
+
+    if (!screenId || !layout) {
+        throw new BadRequestError("Screen id and layout are required to create a screen seats");
+    }
+
+    const seatLayout = await ScreenServices.configureScreenSeats(screenId, layout);
+
+    return res.status(200).json({
+        success: true,
+        message: "Screen seats configured successfully",
+        data: seatLayout
+    });
+
+});
 
 
-module.exports = { createScreen, getAllScreensByTheaterId };
+module.exports = { createScreen, getAllScreensByTheaterId, configureScreenSeats };

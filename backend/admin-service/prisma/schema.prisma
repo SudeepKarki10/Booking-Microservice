@@ -16,7 +16,7 @@ model Theater {
   location    String  //Baneshwor
 
   screens     Screen[]  // 3d, laserMX
-  isActive    Boolean
+  isActive    Boolean @default(true)
 
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
@@ -86,27 +86,38 @@ model Movie {
 }
 
 model Showtime {
-  id          String @id @default(uuid())
+  id        String   @id @default(uuid())
+  movieId   String
+  screenId  String
+  movie     Movie    @relation(fields: [movieId], references: [id])
+  screen    Screen   @relation(fields: [screenId], references: [id])
+  startTime DateTime
+  endTime   DateTime
 
-  movieId     String
-  screenId    String
+  // Fallback price if a specific category rule isn't found
+  basePrice Decimal @db.Decimal(10, 2)
 
-  movie       Movie @relation(fields: [movieId], references: [id])
-  screen      Screen @relation(fields: [screenId], references: [id])
+  status ShowStatus @default(ACTIVE)
 
-  startTime   DateTime
-  endTime     DateTime
+  seats ShowtimeSeat[]
 
-  basePrice   Decimal @db.Decimal(10, 2)
+  priceRules ShowtimePriceRule[]
 
-  status      ShowStatus @default(ACTIVE)
-
-  seats       ShowtimeSeat[]
-
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   @@index([startTime])
+}
+
+model ShowtimePriceRule {
+  id         String   @id @default(uuid())
+  showtimeId String
+  seatType   SeatType // e.g., PLATINUM
+  price      Decimal  @db.Decimal(10, 2) // e.g., 350.00
+
+  showtime   Showtime @relation(fields: [showtimeId], references: [id], onDelete: Cascade)
+
+  @@unique([showtimeId, seatType]) // One price per seat category per show
 }
 
 model ShowtimeSeat {
@@ -129,6 +140,8 @@ enum SeatType {
   REGULAR
   PREMIUM
   VIP
+  PLATINUM  
+  SOFA     
 }
 
 enum ShowStatus {

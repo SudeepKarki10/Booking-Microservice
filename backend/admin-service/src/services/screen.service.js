@@ -53,7 +53,37 @@ class ScreenServices {
         return existingScreens;
     }
 
+    async configureScreenSeats(screenId, layout) {
+        const seatsArray = [];
 
+        // 1. Loop through ALL configurations to fully build the array
+        for (const rowConfig of layout) {
+
+            for (let seatNum = 1; seatNum <= rowConfig.totalSeats; seatNum++) {
+
+                seatsArray.push({
+                    screenId,
+                    type: rowConfig.type,
+                    row: rowConfig.row,
+                    number: seatNum
+                });
+            }
+        }
+
+        // 2. Run the database transaction ONCE with the complete array
+        return await prisma.$transaction(async (tx) => {
+            // Clear any old physical configurations for this screen
+            await tx.seat.deleteMany({
+                where: { screenId }
+            });
+
+            // Bulk insert all generated seats at once
+            return await tx.seat.createMany({
+                data: seatsArray,
+                skipDuplicates: true
+            });
+        });
+    }
 
 }
 
