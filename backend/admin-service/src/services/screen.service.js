@@ -64,6 +64,7 @@ class ScreenServices {
                 seatsArray.push({
                     screenId,
                     type: rowConfig.type,
+
                     row: rowConfig.row,
                     number: seatNum
                 });
@@ -83,6 +84,19 @@ class ScreenServices {
                 skipDuplicates: true
             });
         });
+    }
+
+    async getScreenSeatsByScreenId(screenId) {
+        const seats = await prisma.seat.findMany({
+            where: { screenId }
+        });
+
+        if (seats.length === 0) {
+            throw new NotFoundError("Seats not found for given screenId!");
+        }
+
+        logger.info(`Seats for screen id:${screenId}`, { seats });
+        return seats;
     }
 
 }

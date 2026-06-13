@@ -52,3 +52,6 @@
 {"level":"error","message":"Error in auth middleware: jwt expired","service":"api-gateway","timestamp":"2026-06-10T15:18:37.605Z"}
 {"level":"error","message":"Error in auth middleware: jwt expired","service":"api-gateway","timestamp":"2026-06-11T13:24:08.017Z"}
 {"level":"error","message":"Error in auth middleware: jwt expired","service":"api-gateway","timestamp":"2026-06-11T13:40:47.910Z"}
+{"level":"error","message":"Error in auth middleware: jwt expired","service":"api-gateway","timestamp":"2026-06-13T15:49:03.822Z"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED ::1:6001","service":"api-gateway","timestamp":"2026-06-13T15:54:57.944Z"}
+{"level":"error","message":"Error in auth middleware: jwt expired","service":"api-gateway","timestamp":"2026-06-13T15:56:02.230Z"}

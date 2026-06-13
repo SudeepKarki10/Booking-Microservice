@@ -4,7 +4,7 @@ const { createMovie, getMovieById, getAllMovies } = require("../controllers/movi
 
 router.post("/create", createMovie);
 router.get("/:id", getMovieById);
-router.get("/:screenId/seats", getAllMovies);
+router.get("/", getAllMovies);
 
 module.exports = router;
 
